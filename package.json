@@ -1,0 +1,14 @@
+{
+  "name": "error-message",
+  "version": "1.0.0",
+  "description": "React component for showing error/success messages in your webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "soumya-62",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^18.1.0"
+  }
+}
