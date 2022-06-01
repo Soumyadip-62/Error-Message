@@ -1,14 +1,31 @@
 {
-  "name": "error-message",
-  "version": "1.0.0",
+  "name": "error-message-tal",
+  "version": "1.0.3",
   "description": "React component for showing error/success messages in your webpage",
-  "main": "index.js",
+ "main": "dist/index.js",
+"module": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel src --out-dir dist --copy-files"
+    
   },
-  "author": "soumya-62",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Soumyadip-62/Error-Message"
+  },
+  "author": "Soumyadip Pandit",
+  "keywords": ["react", "components", "error", "success", "country codes"],
+
   "license": "ISC",
   "peerDependencies": {
-    "react": "^18.1.0"
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
   }
 }
