@@ -32,7 +32,7 @@ function App() {
       <div>
         <label>Select Country code</label>
         <select
-          name="Cointry code"
+          name="Country code"
           className="select">
           <Country_Code />
         </select>
