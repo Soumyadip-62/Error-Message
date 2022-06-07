@@ -1,6 +1,6 @@
 {
   "name": "error-message-tal",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React component for showing error/success messages in your webpage",
  "main": "dist/index.js",
 "module": "dist/index.js",
